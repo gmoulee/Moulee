@@ -1,0 +1,901 @@
+{
+   "q1":
+         {
+            "qn": "Which of the following is not a valid variable name declaration?",
+            "a": "int __a3;",
+            "b": "int __3a;",
+            "c": "int __A3;",
+            "d": "None of the mentioned",
+            "answer": "d",
+            "topic": "c",
+            "difficulty":"1"
+        }
+    ,
+    "q2":
+        {
+            "qn": "Which of the following is not a valid variable name declaration?",
+            "a": "int _a3;",
+            "b": "int a_3;",
+            "c": "int 3_a",
+            "d": "int _3a;",
+            "answer": "c",
+            "topic": "c",
+            "difficulty":"1"
+        }
+    ,
+   "q3":
+        {
+            "qn": "Why do variable names beginning with the underscore is not encouraged?",
+            "a": "It is not standardized",
+            "b": "To avoid conflicts since assemblers and loaders use such names",
+            "c": "To avoid conflicts since library routines use such names",
+            "d": "To avoid conflicts with environment variables of an operating system",
+            "answer": "c",
+            "topic": "c",
+            "difficulty":"1"
+        }
+   ,
+   "q4":
+         {
+            "qn": "All keywords in C are in ____________",
+            "a": "LowerCase letters",
+            "b": "UpperCase letters",
+            "c": "CamelCase letters",
+            "d": "None of the mentioned",
+            "answer": "a",
+            "topic": "c",
+            "difficulty":"1"
+        }
+    ,
+   "q5":
+         {
+            "qn": "Variable name resolution (number of significant characters for the uniqueness of variable) depends on ___________",
+            "a": "Compiler and linker implementations",
+            "b": "Assemblers and loaders implementations",
+            "c": "C language",
+            "d": "None of the mentioned",
+            "answer": "a",
+            "topic": "c",
+            "difficulty":"1"
+        }
+    ,
+   "q6":
+         {
+            "qn": "The format identifier ‘%i’ is also used for _____ data type.",
+            "a": "float",
+            "b": "int",
+            "c": "char",
+            "d": "double",
+            "answer": "b",
+            "topic": "c",
+            "difficulty":"2"
+        }
+    ,
+   "q7":
+         {
+            "qn": "Which data type is most suitable for storing a number 65000 in a 32-bit system?",
+            "a": "signed short",
+            "b": "unsigned short",
+            "c": "long",
+            "d": "int",
+            "answer": "b",
+            "topic": "c",
+             "difficulty":"2"
+        }
+    ,
+   "q8":
+         {
+            "qn": "Which of the following is a User-defined data type?",
+            "a": "typedef int Boolean;",
+            "b": "typedef enum {Mon, Tue, Wed, Thu, Fri} Workdays;",
+            "c": "struct {char name[10], int age};",
+            "d": "all of the above",
+            "answer": "d",
+            "topic": "c",
+            "difficulty":"2"
+        }
+    ,
+    "q9":
+        {
+            "qn": "What is the size of an int data type?",
+            "a": "4 bytes",
+            "b": "8 bytes",
+            "c": "Depends on the system/compiler",
+            "d": "Cannot be determined",
+            "answer": "c",
+            "topic": "c",
+            "difficulty":"2"
+        }
+    ,
+   "q10":
+         {
+            "qn": "What is short int in C programming?",
+            "a": "The basic data type of C",
+            "b": "hQualifier",
+            "c": "Short is the qualifier and int is the basic data type",
+            "d": "All of above",
+            "answer": "c",
+            "topic": "c",
+            "difficulty":"2"
+        }
+	,
+   "q11":
+         {
+            "qn": "When compiler accepts the request to use the variable as a register?",
+            "a": "It is stored in CPU",
+            "b": "It is stored in cache memory",
+            "c": "It is stored in main memory",
+            "d": "It is stored in secondary memory",
+            "answer": "a",
+            "topic": "c",
+            "difficulty":"3"
+        }
+	,
+   "q12":
+         {
+            "qn": "Which data type can be stored in register?",
+            "a": "int",
+            "b": "long",
+            "c": "string",
+            "d": "All of the above",
+            "answer": "d",
+            "topic": "c",
+            "difficulty":"3"
+        }
+	,
+   "q13":
+         {
+            "qn": "Which among the following is the correct syntax to declare a static variable register?",
+            "a": "static register a;",
+            "b": "register static a;",
+            "c": "Both static register a; and register static a;",
+            "d": "We cannot use static and register together",
+            "answer": "d",
+            "topic": "c",
+            "difficulty":"3"
+        }
+	,
+   "q14":
+         {
+            "qn": "What is the advantage of #define over const?",
+            "a": "Data type is flexible",
+            "b": "Can have a pointer",
+            "c": "Reduction in the size of the program",
+            "d": "None of the mentioned",
+            "answer": "a",
+            "topic": "c",
+            "difficulty":"3"
+        }
+	,
+   "q15":
+         {
+            "qn": "What is the scope of an external variable?",
+            "a": "Whole source file in which it is defined",
+            "b": "From the point of declaration to the end of the file in which it is defined",
+            "c": "Any source file in a program",
+            "d": "From the point of declaration to the end of the file being compiled",
+            "answer": "d",
+            "topic": "c",
+            "difficulty":"3"
+        }
+	,
+   "q16":
+         {
+            "qn": "Is Python case sensitive when dealing with identifiers?",
+            "a": "Yes",
+            "b": "No",
+            "c": "Machine Dependent",
+            "d": "None of the mentioned",
+            "answer": "a",
+            "topic": "python",
+            "difficulty":"1"
+        }
+	,
+   "q17":
+         {
+            "qn": "What is the maximum possible length of an identifier?",
+            "a": "31 characters",
+            "b": "63 characters",
+            "c": "79 characters",
+            "d": "None of the mentioned",
+            "answer": "d",
+            "topic": "python",
+            "difficulty":"1"
+        }
+	,
+   "q18":
+         {
+            "qn": "Which of the following is invalid?",
+            "a": "_a = 1",
+            "b": "__a = 1",
+            "c": "__str__ = 1",
+            "d": "None of the mentioned",
+            "answer": "d",
+            "topic": "python",
+            "difficulty":"1"
+        }
+	,
+   "q19":
+         {
+            "qn": "Which of the following is an invalid variable?",
+            "a": "my_string_1",
+            "b": "1st_string",
+            "c": "foo",
+            "d": "_",
+            "answer": "b",
+            "topic": "python",
+            "difficulty":"1"
+        }
+	,
+   "q20":
+         {
+            "qn": "Why are local variable names beginning with an underscore discouraged?",
+            "a": "they are used to indicate a private variables of a class",
+            "b": "they confuse the interpreter",
+            "c": "they are used to indicate global variables",
+            "d": "they slow down execution",
+            "answer": "a",
+            "topic": "python",
+            "difficulty":"2"
+        }
+	,
+   "q21":
+         {
+            "qn": "Which of the following is not a keyword?",
+            "a": "eval",
+            "b": "assert",
+            "c": "non local",
+            "d": "pass",
+            "answer": "a",
+            "topic": "python",
+            "difficulty":"2"
+        }
+	,
+   "q22":
+         {
+            "qn": "All keywords in Python are in",
+            "a": "lower case",
+            "b": "UPPER CASE",
+            "c": "Capitalized",
+            "d": "None of the mentioned",
+            "answer": "d",
+            "topic": "python",
+            "difficulty":"2"
+        }
+	,
+   "q23":
+         {
+            "qn": "Which of the following is an invalid statement?",
+            "a": "abc = 1,000,000",
+            "b": "a b c = 1000 2000 3000",
+            "c": "a,b,c = 1000, 2000, 3000",
+            "d": "a_b_c = 1,000,000",
+            "answer": "b",
+            "topic": "python",
+            "difficulty":"2"
+        }
+	,
+   "q24":
+         {
+            "qn": "Is Python case sensitive when dealing with identifiers?",
+            "a": "Yes",
+            "b": "No",
+            "c": "Machine Dependent",
+            "d": "None of the mentioned",
+            "answer": "a",
+            "topic": "python",
+            "difficulty":"2"
+        }
+	,
+   "q25":
+         {
+            "qn": "Which of the following cannot be a variable?",
+            "a": "__init__",
+            "b": "in",
+            "c": "it",
+            "d": "on",
+            "answer": "b",
+            "topic": "python",
+            "difficulty":"2"
+        }
+	,
+   "q26":
+         {
+            "qn": "Which of the following data structures is returned by the functions globals() and locals()?",
+            "a": "list",
+            "b": "Set",
+            "c": "Dictionary",
+            "d": "tuple",
+            "answer": "c",
+            "topic": "python",
+            "difficulty":"3"
+        }
+	,
+   "q27":
+         {
+            "qn": "What happens if a local variable exists with the same name as the global variable you want to access?",
+            "a": "Error",
+            "b": "The local variable is shadowed",
+            "c": "Undefined behavior",
+            "d": "The global variable is shadowed",
+            "answer": "d",
+            "topic": "python",
+            "difficulty":"3"
+        }
+	,
+   "q28":
+         {
+            "qn": "___ returns a dictionary of the module namespace. ____ returns a dictionary of the current namespace.",
+            "a": "locals() globals()",
+            "b": "locals() locals()",
+            "c": "globals() locals()",
+            "d": "globals() globals()",
+            "answer": "c",
+            "topic": "python",
+            "difficulty":"3"
+        }
+	,
+   "q29":
+         {
+            "qn": "['hello', 'morning'][bool('')]",
+            "a": "error",
+            "b": "No output",
+            "c": "hello",
+            "d": "morning",
+            "answer": "c",
+            "topic": "python",
+            "difficulty":"3"
+        }
+	,
+   "q30":
+         {
+            "qn": "['f', 't'][bool('spam')]",
+            "a": "t",
+            "b": "f",
+            "c": "No output",
+            "d": "Error",
+            "answer": "a",
+            "topic": "python",
+            "difficulty":"3"
+        }
+	,
+   "q31":
+         {
+            "qn": "Which attribute specifies a unique alphanumeric identifier to be associated with an element?",
+            "a": "class",
+            "b": "id",
+            "c": "article",
+            "d": "html",
+            "answer": "b",
+            "topic": "html",
+            "difficulty":"1"
+        }
+	,	
+	"q32":
+         {
+            "qn": "The ___ attribute specifies an inline style associated with an element, which determines the rendering of the affected element.",
+            "a": "dir",
+            "b": "style",
+            "c": "class",
+            "d": "article",
+            "answer": "b",
+            "topic": "html",
+            "difficulty":"1"
+        }
+	,	
+	"q33":
+         {
+            "qn": "Which attribute is used to provide an advisory text about an element or its contents?",
+            "a": "tooltip",
+            "b": "dir",
+            "c": "title",
+            "d": "head",
+            "answer": "c",
+            "topic": "html",
+            "difficulty":"1"
+        }
+	,	
+	"q34":
+         {
+            "qn": "Which of the following is the attribute that specifies the column name from the data source object that supplies the bound data?",
+            "a": "dataFormatAs",
+            "b": "datafld",
+            "c": "disabled",
+            "d": "datasrc",
+            "answer": "b",
+            "topic": "html",
+            "difficulty":"1"
+        }
+	,	
+	"q35":
+         {
+            "qn": "Which of the following is the attribute that indicates the name of the data source object that supplies the data that is bound to this element?",
+            "a": "dataFormatAs",
+            "b": "datafld",
+            "c": "disabled",
+            "d": "datasrc",
+            "answer": "d",
+            "topic": "html",
+            "difficulty":"1"
+        }
+	,	
+	"q36":
+         {
+            "qn": "Which of the following is the attribute that specifies additional horizontal item like an iframe, applet, image, and so on?",
+            "a": "height",
+            "b": "hspace",
+            "c": "hidefocus",
+            "d": "datasrc",
+            "answer": "b",
+            "topic": "html",
+            "difficulty":"2"
+        }
+	,	
+	"q37":
+         {
+            "qn": "The accesskey attribute specifies a keyboard navigation accelerator for the element.",
+            "a": "True",
+            "b": "False",
+            "c": "None",
+            "d": "Invalid",
+            "answer": "a",
+            "topic": "html",
+            "difficulty":"2"
+        }
+	,	
+	"q38":
+         {
+            "qn": "Which of the following is the attribute that is used to set a global identifier for a microdata item?",
+            "a": "Key",
+            "b": "Id",
+            "c": "Itemclass",
+            "d": "Itemid",
+            "answer": "d",
+            "topic": "html",
+            "difficulty":"2"
+        }
+	,	
+	"q39":
+         {
+            "qn": "Which of the following is the attribute that is used to add a name/value pair to a microdata item?",
+            "a": "Itemscope",
+            "b": "Itemref",
+            "c": "Itemprop",
+            "d": "ItemId",
+            "answer": "c",
+            "topic": "html",
+            "difficulty":"2"
+        }
+	,	
+	"q40":
+         {
+            "qn": "Which attribute is used to provide an advisory text about an element or its contents?",
+            "a": "tooltip",
+            "b": "dir",
+            "c": "title",
+            "d": "head",
+            "answer": "c",
+            "topic": "html",
+            "difficulty":"2"
+        }
+	,	
+	"q41":
+         {
+            "qn": "Major portion of web page contributes _____",
+            "a": "Image",
+            "b": "Text",
+            "c": "Video",
+            "d": "Audio",
+            "answer": "a",
+            "topic": "html",
+            "difficulty":"3"
+        }
+	,	
+	"q42":
+         {
+            "qn": "For image compression which tool is helpful?",
+            "a": "WordPress cache enable a plugin",
+            "b": "Optimus wordpress plugin",
+            "c": "Glup-uglify",
+            "d": "Speed test tool",
+            "answer": "b",
+            "topic": "html",
+            "difficulty":"3"
+        }
+	,	
+	"q43":
+         {
+            "qn": "HTTP request is between _____",
+            "a": "client and host",
+            "b": "client and server",
+            "c": "server and host",
+            "d": "user and host",
+            "answer": "a",
+            "topic": "html",
+            "difficulty":"3"
+        }
+	,	
+	"q44":
+         {
+            "qn": "What does not come under minification?",
+            "a": "removal of comments",
+            "b": "removal of new line characters",
+            "c": "removal of white space characters",
+            "d": "removal of multimedia elements",
+            "answer": "d",
+            "topic": "html",
+            "difficulty":"3"	
+        }
+	,	
+	"q45":
+         {
+            "qn": "Which of the following is not render blocking resource?",
+            "a": "CSS",
+            "b": "HTML",
+            "c": "Java Script",
+            "d": "jquery",
+            "answer": "d",
+            "topic": "html",
+            "difficulty":"3"
+        }
+	,	
+	"q46":
+         {
+            "qn": "What is the range of short data type in Java?",
+            "a": "-128 to 127",
+            "b": "-32768 to 32767",
+            "c": "-2147483648 to 2147483647",
+            "d": "None of above",
+            "answer": "b",
+            "topic": "java",
+            "difficulty":"1"
+        }
+	,	
+	"q47":
+         {
+            "qn": "What is the range of byte data type in Java?",
+            "a": "-128 to 127",
+            "b": "-32768 to 32767",
+            "c": "-2147483648 to 2147483647",
+            "d": "None of above",
+            "answer": "a",
+            "topic": "java",
+            "difficulty":"1"
+        }
+	,	
+	"q48":
+         {
+            "qn": "An expression involving byte, int, and literal numbers is promoted to which of these?",
+            "a": "int",
+            "b": "long",
+            "c": "byte",
+            "d": "float",
+            "answer": "a",
+            "topic": "java",
+            "difficulty":"1"
+        }
+	,	
+	"q49":
+         {
+            "qn": "Which data type value is returned by all transcendental math functions?",
+            "a": "int",
+            "b": "float",
+            "c": "double",
+            "d": "long",
+            "answer": "c",
+            "topic": "java",
+            "difficulty":"1"
+        }
+	,	
+	"q50":
+         {
+            "qn": "int w = (int)888.8; legal lines of Java code?",
+            "a": "Yes",
+            "b": "No",
+            "c": "Maybe",
+            "d": "None of above",
+            "answer": "a",
+            "topic": "java",
+            "difficulty":"1"
+        }
+	,	
+	"q51":
+         {
+            "qn": "What is true about private constructor?",
+            "a": "Private constructor ensures only one instance of a class exist at any point of time",
+            "b": "Private constructor ensures multiple instances of a class exist at any point of time",
+            "c": "Private constructor eases the instantiation of a class",
+            "d": "Private constructor allows creating objects in other classes",
+            "answer": "a",
+            "topic": "java",
+            "difficulty":"2"
+        }
+	,	
+	"q52":
+         {
+            "qn": "What would be the behaviour if this() and super() used in a method?",
+            "a": "Runtime error",
+            "b": "Throws exception",
+            "c": "compile time error",
+            "d": "Runs successfully",
+            "answer": "C",
+            "topic": "java",
+            "difficulty":"2"
+        }
+	,	
+	"q53":
+         {
+            "qn": "What is false about constructor?",
+            "a": "Constructors cannot be synchronized in Java",
+            "b": "Java does not provide default copy constructor",
+            "c": "Constructor can be overloaded",
+            "d": "“this” and “super” can be used in a constructor",
+            "answer": "C",
+            "topic": "java",
+            "difficulty":"2"
+        }
+	,	
+	"q54":
+         {
+            "qn": "What is true about Class.getInstance()?",
+            "a": "Class.getInstance calls the constructor",
+            "b": "Class.getInstance is same as new operator",
+            "c": "Class.getInstance needs to have matching constructor",
+            "d": "Class.getInstance creates object if class does not have any constructor",
+            "answer": "d",
+            "topic": "java",
+            "difficulty":"2"
+        }
+	,	
+	"q55":
+         {
+            "qn": "What is true about constructor?",
+            "a": "It can contain return type",
+            "b": "It can take any number of parameters",
+            "c": "It can have any non access modifiers",
+            "d": "Constructor cannot throw an exception",
+            "answer": "b",
+            "topic": "java",
+            "difficulty":"2"
+        }
+	,	
+	"q56":
+         {
+            "qn": "Which of the following has the highest memory requirement?",
+            "a": "Heap",
+            "b": "Stack",
+            "c": "JVM",
+            "d": "Class",
+            "answer": "c",
+            "topic": "java",
+            "difficulty":"3"
+        }
+	,	
+	"q57":
+         {
+            "qn": "Where is a new object allocated memory?",
+            "a": "Young space",
+            "b": "Old space",
+            "c": "Young or Old space depending on space availability",
+            "d": "JVM",
+            "answer": "a",
+            "topic": "java",
+            "difficulty":"3"
+        }
+	,	
+	"q58":
+         {
+            "qn": "Which of the following is a garbage collection technique?",
+            "a": "Cleanup model",
+            "b": "Mark and sweep model",
+            "c": "Space management model",
+            "d": "Sweep model",
+            "answer": "b",
+            "topic": "java",
+            "difficulty":"3"
+        }
+	,	
+	"q59":
+         {
+            "qn": "What is -Xms and -Xmx while starting jvm?",
+            "a": "Initial; Maximum memory",
+            "b": "Maximum; Initial memory",
+            "c": "Maximum memory",
+            "d": "Initial memory",
+            "answer": "a",
+            "topic": "java",
+            "difficulty":"3"
+        }
+	,	
+	"q60":
+         {
+            "qn": "How to get prints of shared object memory maps or heap memory maps for a given process?",
+            "a": "jmap",
+            "b": "memorymap",
+            "c": "memorypath",
+            "d": "jvmmap",
+            "answer": "a",
+            "topic": "java",
+            "difficulty":"3"
+        }
+	,	
+	"q61":
+         {
+            "qn": "The operator used for dereferencing or indirection is ____",
+            "a": "*",
+            "b": "&",
+            "c": "_>",
+            "d": "__>>",
+            "answer": "a",
+            "topic": "c++",
+            "difficulty":"1"
+        }
+	,	
+	"q62":
+         {
+            "qn": "Choose the right option string* x, y;",
+            "a": "x is a pointer to a string, y is a string",
+            "b": "y is a pointer to a string, x is a string",
+            "c": "both x and y are pointers to string types",
+            "d": "none of the mentioned",
+            "answer": "a",
+            "topic": "c++",
+            "difficulty":"1"
+        }
+	,	
+	"q63":
+         {
+            "qn": "Which one of the following is not a possible state for a pointer.",
+            "a": "hold the address of the specific object",
+            "b": "point one past the end of an object",
+            "c": "zero",
+            "d": "point to a tye",
+            "answer": "d",
+            "topic": "c++",
+            "difficulty":"1"
+        }
+	,	
+	"q64":
+         {
+            "qn": "Which of the following is illegal?",
+            "a": "int *ip;",
+            "b": "string s, *sp = 0;",
+            "c": "int i; double* dp = &i;",
+            "d": "int *pi = 0;",
+            "answer": "c",
+            "topic": "c++",
+            "difficulty":"1"
+        }
+	,	
+	"q65":
+         {
+            "qn": "The correct statement for a function that takes pointer to a float, a pointer to a pointer to a char and returns a pointer to a pointer to a integer is",
+            "a": "int **fun(float**, char**)",
+            "b": "int *fun(float*, char*)",
+            "c": "int **fun(float*, char**)",
+            "d": "int ***fun(*float, **char)",
+            "answer": "c",
+            "topic": "c++",
+            "difficulty":"1"
+        }
+	,	
+	"q66":
+         {
+            "qn": "What does a class in C++ holds?",
+            "a": "data",
+            "b": "functions",
+            "c": "both data & functions",
+            "d": "none of the mentioned",
+            "answer": "c",
+            "topic": "c++",
+            "difficulty":"2"
+        }
+	,	
+	"q67":
+         {
+            "qn": "How many specifiers are present in access specifiers in class?",
+            "a": "1",
+            "b": "2",
+            "c": "3",
+            "d": "4",
+            "answer": "c",
+            "topic": "c++",
+            "difficulty":"2"
+        }
+	,	
+	"q68":
+         {
+            "qn": "Which is used to define the member of a class externally?",
+            "a": ":",
+            "b": "::",
+            "c": "#",
+            "d": "None of above",
+            "answer": "b",
+            "topic": "c++",
+            "difficulty":"2"
+        }
+	,	
+	"q69":
+         {
+            "qn": "Which of the following is a valid class declaration?",
+            "a": "class A { int x; };",
+            "b": "class B { }",
+            "c": "public class A { }",
+            "d": "object A { int x; };",
+            "answer": "a",
+            "topic": "c++",
+            "difficulty":"2"
+        }
+	,	
+	"q70":
+         {
+            "qn": "Which other keywords are also used to declare the class other than class?",
+            "a": "struct",
+            "b": "union",
+            "c": "object",
+            "d": "both struct & union",
+            "answer": "d",
+            "topic": "c++",
+            "difficulty":"2"
+        }
+	,	
+	"q71":
+         {
+            "qn": "Which is used to tell the computer that where a pointer is pointing to?",
+            "a": "dereference",
+            "b": "reference",
+            "c": "heap operations",
+            "d": "none of the mentioned",
+            "answer": "a",
+            "topic": "c++",
+            "difficulty":"3"
+        }
+	,	
+	"q72":
+         {
+            "qn": "Which is used to do the dereferencing?",
+            "a": "pointer without asterix",
+            "b": "value without asterix",
+            "c": "pointer with asterix",
+            "d": "value with asterix",
+            "answer": "c",
+            "topic": "c++",
+            "difficulty":"3"
+        }
+	,	
+	"q73":
+         {
+            "qn": "Pick out the correct option.",
+            "a": "References automatically dereference without needing an extra character",
+            "b": "References automatically dereference with an extra character",
+            "c": "Reference will not dereference",
+            "d": "None of above",
+            "answer": "a",
+            "topic": "c++",
+            "difficulty":"3"
+        }
+	,	
+	"q74":
+         {
+            "qn": "What does the dereference operator will return?",
+            "a": "rvalue equivalent to the value at the pointer address",
+            "b": "lvalue equivalent to the value at the pointer address",
+            "c": "it will return nothing",
+            "d": "none of the mentioned",
+            "answer": "b",
+            "topic": "c++",
+            "difficulty":"3"
+        }
+	,	
+	"q75":
+         {
+            "qn": "Pick out the correct statement.",
+            "a": "The NULL pointer dereference occurs where a pointer that is expected to be a valid address but instead is equal to NULL",
+            "b": "The NULL pointer dereference occurs where a pointer that is expected to be a valid address but instead is equal to the memory address",
+            "c": "All of the mentioned",
+            "d": "None of the mentioned",
+            "answer": "a",
+            "topic": "c++",
+            "difficulty":"3"
+        }
+}
